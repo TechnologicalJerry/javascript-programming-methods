@@ -3,6 +3,8 @@ var inputLabel = document.getElementById('inputLabel');
 function pushButton(object) {
 
     var pushed = object.innerHTML;
+    
+    console.log('PUSHED===>', pushed);
 
     if (pushed == '=') {
 
