@@ -1,7 +1,13 @@
-let array = ["A", "B", "C"];
-let second = ["D", "E", "F"];
-let third = "G";
+let arrayFirdt = ["A", "B", "C"];
+let arrayescond = ["D", "E", "F"];
+let arrayAnother = ["G", "H", "I"];
+let arrayThird = "J";
 
-let example4d = array.concat(second);
+let consoleFirst = arrayFirdt.concat(arrayescond);
+console.log('A result===>', consoleFirst);
 
-let example4e = array.concat(second, third);
+let consoleSecond = arrayFirdt.concat(arrayescond, arrayAnother);
+console.log('B result===>', consoleSecond);
+
+let consoleThird = arrayFirdt.concat(arrayescond, arrayThird);
+console.log('C result===>', consoleSecond);
