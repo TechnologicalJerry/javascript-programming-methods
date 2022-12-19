@@ -10,4 +10,4 @@ let consoleSecond = arrayFirdt.concat(arrayescond, arrayAnother);
 console.log('B result===>', consoleSecond);
 
 let consoleThird = arrayFirdt.concat(arrayescond, arrayThird);
-console.log('C result===>', consoleSecond);
+console.log('C result===>', consoleThird);
