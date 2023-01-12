@@ -9,9 +9,9 @@ function factors(n) {
         }
     num_factors.sort(function (x, y) {
         return x - y;
-    });  // numeric sort
+    });
     return num_factors;
 }
-console.log(factors(15));  // [1,3,5,15] 
-console.log(factors(16));  // [1,2,4,8,16] 
-console.log(factors(17));  // [1,17]
+console.log(factors(15));
+console.log(factors(16));
+console.log(factors(17));   
