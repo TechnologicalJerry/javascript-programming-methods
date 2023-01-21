@@ -1,6 +1,5 @@
-function int_round5(num)
-{
-    return Math.ceil(num/5)*5;
+function int_round5(num) {
+    return Math.ceil(num / 5) * 5;
 }
 
 console.log(int_round5(32));
