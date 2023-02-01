@@ -1,8 +1,6 @@
 function find_lucas_number(index) {  
-    // index should not be a negative number
     if (index >= 0)
       {
-    // index sould be an integer
       if (Math.floor(index) !== index) throw new TypeError('Index cannot be a Decimal')
       let x = 2
       let y = 1
