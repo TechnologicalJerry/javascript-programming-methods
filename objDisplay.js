@@ -45,15 +45,15 @@ const thePerson = {
 
 document.getElementById("demo").innerHTML = thePerson.name + ", " + thePerson.age + ", " + thePerson.city;
 
-const person = {
-    name: "John",
-    age: 30,
-    city: "New York"
-};
+// const person = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+// };
 
-let txt = "";
-for (let x in person) {
-    txt += person[x] + " ";
-};
+// let txt = "";
+// for (let x in person) {
+//     txt += person[x] + " ";
+// };
 
-document.getElementById("demo").innerHTML = txt;
+// document.getElementById("demo").innerHTML = txt;
