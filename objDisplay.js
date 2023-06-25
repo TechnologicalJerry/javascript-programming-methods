@@ -36,3 +36,11 @@ const person = {
 };
 
 document.getElementById("demo").innerHTML = person;
+
+const thePerson = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+
+document.getElementById("demo").innerHTML = thePerson.name + ", " + thePerson.age + ", " + thePerson.city;
