@@ -70,7 +70,7 @@ const person = {
     name: "John",
     age: 30,
     city: "New York"
-  };
-  
-  const myArray = Object.values(person);
-  document.getElementById("demo").innerHTML = myArray;
+};
+
+const myArray = Object.values(person);
+document.getElementById("demo").innerHTML = myArray;
