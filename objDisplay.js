@@ -29,13 +29,13 @@ for (let x in person) {
 
 document.getElementById("demo").innerHTML = txt;
 
-const person = {
-    name: "John",
-    age: 30,
-    city: "New York"
-};
+// const person = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+// };
 
-document.getElementById("demo").innerHTML = person;
+// document.getElementById("demo").innerHTML = person;
 
 const thePerson = {
     name: "John",
