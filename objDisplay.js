@@ -57,3 +57,11 @@ document.getElementById("demo").innerHTML = thePerson.name + ", " + thePerson.ag
 // };
 
 // document.getElementById("demo").innerHTML = txt;
+
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+  const myArray = Object.values(person);
