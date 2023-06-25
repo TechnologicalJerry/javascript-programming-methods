@@ -65,3 +65,12 @@ const person = {
 };
 
 const myArray = Object.values(person);
+
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+  const myArray = Object.values(person);
+  document.getElementById("demo").innerHTML = myArray;
