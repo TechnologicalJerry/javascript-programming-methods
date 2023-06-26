@@ -95,3 +95,22 @@
 // // Display nationality
 // document.getElementById("demo").innerHTML =
 //     "The nationality of my father is " + myFather.nationality; 
+
+
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+  this.name = function() {
+    return this.firstName + " " + this.lastName
+  };
+}
+
+// Create a Person object
+const myFather = new Person("John", "Doe", 50, "blue");
+
+// Display full name
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.name(); 
