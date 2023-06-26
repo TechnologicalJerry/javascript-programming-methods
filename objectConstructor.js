@@ -11,4 +11,7 @@ const myFather = new Person("John", "Doe", 50, "blue");
 
 // Display age
 document.getElementById("demo").innerHTML =
-    "My father is " + myFather.age + "."; 
+    "My father is " + myFather.age + ".";
+
+
+
