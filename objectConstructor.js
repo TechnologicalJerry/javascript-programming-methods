@@ -113,20 +113,20 @@ const myFather = new Person("John", "Doe", 50, "blue");
 
 // Display full name
 document.getElementById("demo").innerHTML =
-    "My father is " + myFather.name(); 
+    "My father is " + myFather.name();
 
 
 
-    const person = {
-        fullName: function() {
-          return this.firstName + " " + this.lastName;
-        }
-      }
-      
-      const person1 = {
-        firstName: "Mary",
-        lastName: "Doe"
-      }
-      
-      // This will return "Mary Doe":
-      person.fullName.apply(person1);
+const person = {
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+const person1 = {
+    firstName: "Mary",
+    lastName: "Doe"
+}
+
+// This will return "Mary Doe":
+person.fullName.apply(person1);
