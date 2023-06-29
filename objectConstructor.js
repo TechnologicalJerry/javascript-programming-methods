@@ -54,7 +54,6 @@
 // document.getElementById("demo").innerHTML =
 //     "My father is " + myFather.nationality; 
 
-// // Constructor function for Person objects
 // function Person(first, last, age, eye) {
 //     this.firstName = first;
 //     this.lastName = last;
