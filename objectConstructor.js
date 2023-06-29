@@ -85,7 +85,6 @@
 //     this.eyeColor = eye;
 // }
 
-// // You can NOT add a new property to a constructor function
 // Person.nationality = "English";
 
 // const myFather = new Person("John", "Doe", 50, "blue");
