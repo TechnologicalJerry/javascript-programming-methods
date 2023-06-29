@@ -92,7 +92,7 @@
 // const myFather = new Person("John", "Doe", 50, "blue");
 // const myMother = new Person("Sally", "Rally", 48, "green");
 
-// // Display nationality
+
 // document.getElementById("demo").innerHTML =
 //     "The nationality of my father is " + myFather.nationality; 
 
