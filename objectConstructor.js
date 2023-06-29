@@ -77,7 +77,6 @@
 
 
 
-// // Constructor function for Person objects
 // function Person(first, last, age, eye) {
 //     this.firstName = first;
 //     this.lastName = last;
