@@ -88,7 +88,6 @@
 // // You can NOT add a new property to a constructor function
 // Person.nationality = "English";
 
-// // Create 2 Person objects
 // const myFather = new Person("John", "Doe", 50, "blue");
 // const myMother = new Person("Sally", "Rally", 48, "green");
 
