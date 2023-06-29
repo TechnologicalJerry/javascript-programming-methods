@@ -128,5 +128,4 @@ const person1 = {
     lastName: "Doe"
 }
 
-// This will return "Mary Doe":
 person.fullName.apply(person1);
