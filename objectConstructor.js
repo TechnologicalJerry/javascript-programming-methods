@@ -108,10 +108,9 @@ function Person(first, last, age, eye) {
     };
 }
 
-// Create a Person object
+
 const myFather = new Person("John", "Doe", 50, "blue");
 
-// Display full name
 document.getElementById("demo").innerHTML =
     "My father is " + myFather.name();
 
