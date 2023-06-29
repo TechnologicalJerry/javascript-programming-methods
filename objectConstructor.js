@@ -71,7 +71,6 @@
 //     return this.firstName + " " + this.lastName;
 // };
 
-// // Display full name
 // document.getElementById("demo").innerHTML =
 //     "My father is " + myFather.name(); 
 
