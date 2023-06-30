@@ -113,15 +113,15 @@
 // person.fullName.apply(person1);
 
 
-const person = {
-    fullName: function (city, country) {
-        return this.firstName + " " + this.lastName + "," + city + "," + country;
-    }
-}
+// const person = {
+//     fullName: function (city, country) {
+//         return this.firstName + " " + this.lastName + "," + city + "," + country;
+//     }
+// }
 
-const person1 = {
-    firstName: "John",
-    lastName: "Doe"
-}
+// const person1 = {
+//     firstName: "John",
+//     lastName: "Doe"
+// }
 
-person.fullName.call(person1, "Oslo", "Norway");
+// person.fullName.call(person1, "Oslo", "Norway");
