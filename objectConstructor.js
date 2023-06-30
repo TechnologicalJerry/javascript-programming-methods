@@ -114,14 +114,14 @@ function Person(first, last, age, eye) {
 
 
 const person = {
-  fullName: function(city, country) {
-    return this.firstName + " " + this.lastName + "," + city + "," + country;
-  }
+    fullName: function (city, country) {
+        return this.firstName + " " + this.lastName + "," + city + "," + country;
+    }
 }
 
 const person1 = {
-  firstName:"John",
-  lastName: "Doe"
+    firstName: "John",
+    lastName: "Doe"
 }
 
 person.fullName.call(person1, "Oslo", "Norway");
