@@ -42,7 +42,7 @@
 // myFather.nationality = "English";
 
 // document.getElementById("demo").innerHTML =
-//     "My father is " + myFather.nationality; 
+//     "My father is " + myFather.nationality;
 
 // function Person(first, last, age, eye) {
 //     this.firstName = first;
@@ -59,7 +59,7 @@
 // };
 
 // document.getElementById("demo").innerHTML =
-//     "My father is " + myFather.name(); 
+//     "My father is " + myFather.name();
 
 
 
@@ -77,7 +77,7 @@
 
 
 // document.getElementById("demo").innerHTML =
-//     "The nationality of my father is " + myFather.nationality; 
+//     "The nationality of my father is " + myFather.nationality;
 
 
 
