@@ -141,13 +141,24 @@
 
 // let fullName = person.fullName.bind(member);
 
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     display: function () {
+//         let x = document.getElementById("demo");
+//         x.innerHTML = this.firstName + " " + this.lastName;
+//     }
+// }
+
+// person.display();
+
 const person = {
-    firstName: "John",
-    lastName: "Doe",
-    display: function () {
-        let x = document.getElementById("demo");
-        x.innerHTML = this.firstName + " " + this.lastName;
-    }
+  firstName:"John",
+  lastName: "Doe",
+  display: function () {
+    let x = document.getElementById("demo");
+    x.innerHTML = this.firstName + " " + this.lastName;
+  }
 }
 
-person.display();
+setTimeout(person.display, 3000);
