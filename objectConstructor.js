@@ -92,22 +92,36 @@ function Person(first, last, age, eye) {
 }
 
 
-const myFather = new Person("John", "Doe", 50, "blue");
+// const myFather = new Person("John", "Doe", 50, "blue");
 
-document.getElementById("demo").innerHTML =
-    "My father is " + myFather.name();
+// document.getElementById("demo").innerHTML =
+//     "My father is " + myFather.name();
 
+
+
+// const person = {
+//     fullName: function () {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+
+// const person1 = {
+//     firstName: "Mary",
+//     lastName: "Doe"
+// }
+
+// person.fullName.apply(person1);
 
 
 const person = {
-    fullName: function () {
-        return this.firstName + " " + this.lastName;
-    }
+  fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + "," + city + "," + country;
+  }
 }
 
 const person1 = {
-    firstName: "Mary",
-    lastName: "Doe"
+  firstName:"John",
+  lastName: "Doe"
 }
 
-person.fullName.apply(person1);
+person.fullName.call(person1, "Oslo", "Norway");
