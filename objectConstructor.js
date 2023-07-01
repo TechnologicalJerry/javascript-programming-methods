@@ -51,18 +51,6 @@
 //     this.eyeColor = eye;
 // }
 
-// const myFather = new Person("John", "Doe", 50, "blue");
-// const myMother = new Person("Sally", "Rally", 48, "green");
-
-// myFather.name = function () {
-//     return this.firstName + " " + this.lastName;
-// };
-
-// document.getElementById("demo").innerHTML =
-//     "My father is " + myFather.name();
-
-
-
 
 
 
