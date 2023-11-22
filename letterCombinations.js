@@ -23,12 +23,13 @@ const test = (digits) => {
 
         let letter
         let letterIndex
-        
+
         if (index >= length) {
             result.push(combination)
             return
         }
         const digit = digit_Map[digits[index]]
+        
         letterIndex = 0
         while ((letter = digit[letterIndex++])) {
             letter_combinations(index + 1, combination + letter)
