@@ -1,6 +1,7 @@
 document.getElementById(id);
 
 document.getElementsByTagName(name);
+
 document.getElementsByClassName(name);
 document.createElement(element);
 document.removeChild(element);
