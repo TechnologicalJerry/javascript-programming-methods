@@ -33,4 +33,5 @@ const test = (digits) => {
     return result
 }
 console.log(test("12"))
+
 console.log(test("9"))
