@@ -6,7 +6,7 @@ const test = (digits) => {
     if (!length) {
         return result
     }
-    
+
     const digit_Map = {
         1: 'abc',
         2: 'def',
@@ -20,6 +20,7 @@ const test = (digits) => {
     }
 
     const letter_combinations = (index, combination) => {
+        
         let letter
         let letterIndex
         if (index >= length) {
