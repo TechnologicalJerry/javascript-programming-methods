@@ -1,7 +1,8 @@
 const test = (digits) => {
-    
+
     const length = digits?.length
     const result = []
+    
     if (!length) {
         return result
     }
