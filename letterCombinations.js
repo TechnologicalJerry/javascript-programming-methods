@@ -28,8 +28,9 @@ const test = (digits) => {
             result.push(combination)
             return
         }
-        const digit = digit_Map[digits[index]]
         
+        const digit = digit_Map[digits[index]]
+
         letterIndex = 0
         while ((letter = digit[letterIndex++])) {
             letter_combinations(index + 1, combination + letter)
