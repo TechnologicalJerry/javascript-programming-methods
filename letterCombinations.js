@@ -2,10 +2,11 @@ const test = (digits) => {
 
     const length = digits?.length
     const result = []
-    
+
     if (!length) {
         return result
     }
+    
     const digit_Map = {
         1: 'abc',
         2: 'def',
