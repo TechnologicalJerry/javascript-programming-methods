@@ -20,9 +20,10 @@ const test = (digits) => {
     }
 
     const letter_combinations = (index, combination) => {
-        
+
         let letter
         let letterIndex
+        
         if (index >= length) {
             result.push(combination)
             return
