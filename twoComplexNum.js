@@ -4,6 +4,7 @@ function Complex(real, imaginary) {
     this.real = (typeof real === 'undefined') ? this.real : parseFloat(real);
     this.imaginary = (typeof imaginary === 'undefined') ? this.imaginary : parseFloat(imaginary);
 }
+
 Complex.transform = function (num) {
     var complex;
     complex = (num instanceof Complex) ? num : complex;
