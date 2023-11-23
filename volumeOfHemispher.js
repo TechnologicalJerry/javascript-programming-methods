@@ -2,6 +2,7 @@ const volume_Hemisphere = (radius) => {
     is_Number(radius, 'Radius');
     return (2.0 * Math.PI * radius ** 3) / 3.0
 }
+
 const is_Number = (n, n_name = 'number') => {
     if (typeof n !== 'number') {
         throw new TypeError('The ' + n_name + ' is not Number type!');
