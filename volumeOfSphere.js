@@ -2,6 +2,7 @@ const volume_Sphere = (radius) => {
   is_Number(radius, 'Radius');
   return (4 / 3 * Math.PI * radius ** 3);
 }
+
 const is_Number = (n, n_name = 'number') => {
   if (typeof n !== 'number') {
     throw new TypeError('The ' + n_name + ' is not Number type!');
