@@ -1,7 +1,3 @@
-// // console.log("Hello World!");
-// // console.warn("This is Warning!");
-// // console.error("This is an error!");
-// // alert("me");
 
 
 // // Number
