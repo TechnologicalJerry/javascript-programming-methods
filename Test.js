@@ -1,9 +1,5 @@
 
 
-// // Number
-// var num1 = 22;
-// var num2 = 44;
-// console.log(num1 + num2);
 
 // // string
 // var str1 = "This is a string!";
