@@ -1,10 +1,6 @@
 
 
 
-// // string
-// var str1 = "This is a string!";
-// var str2 = 'This is also a atring!';
-// console.log(str1 + str2);
 
 
 // var a1 = true;
