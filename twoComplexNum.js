@@ -27,5 +27,6 @@ function complex_num_subtract(first, second) {
 }
 
 var a = new Complex(2, -7);
+
 var b = new Complex(4, 3);
 console.log(complex_num_subtract(a, b));
