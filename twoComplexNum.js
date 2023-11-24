@@ -11,6 +11,7 @@ Complex.transform = function (num) {
     complex = (typeof num === 'number') ? new Complex(num, 0) : num;
     return complex;
 };
+
 function display_complex(re, im) {
     if (im === '0') return '' + re;
     if (re === 0) return '' + im + 'i';
