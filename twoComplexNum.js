@@ -17,6 +17,7 @@ function display_complex(re, im) {
     if (im < 0) return '' + re + im + 'i';
     return '' + re + '+' + im + 'i';
 }
+
 function complex_num_subtract(first, second) {
     var num1, num2;
     num1 = Complex.transform(first);
