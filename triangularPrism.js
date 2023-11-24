@@ -12,5 +12,6 @@ const is_Number = (n, n_name = 'number') => {
         throw new Error('The ' + n_name + ' must be a positive values!');
     }
 }
+
 console.log(volume_Triangular_Prism(2.0, 4.0, 4.0, 7.0));
 console.log(volume_Triangular_Prism('2.0', 4.0, 4.0, 7.0));
