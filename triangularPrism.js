@@ -5,6 +5,7 @@ const volume_Triangular_Prism = (a, b, c, h) => {
     is_Number(h, 'Height');
     return (1 / 4 * h * Math.sqrt(-(a ** 4) + 2 * a * a * b * b + 2 * a * a * c * c - (b ** 4) + 2 * b * b * c * c - (c ** 4)));
 }
+
 const is_Number = (n, n_name = 'number') => {
     if (typeof n !== 'number') {
         throw new TypeError('The ' + n_name + ' is not Number type!');
