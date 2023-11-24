@@ -14,4 +14,5 @@ const is_Number = (n, n_name = 'number') => {
 }
 
 console.log(volume_Triangular_Prism(2.0, 4.0, 4.0, 7.0));
+
 console.log(volume_Triangular_Prism('2.0', 4.0, 4.0, 7.0));
