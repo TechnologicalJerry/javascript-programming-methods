@@ -2,15 +2,7 @@
 
 
 
-// // JavaScript function
 
-// console.log("Statements");
-// var age = 30;
-// if (age > 18) {
-//     console.log("Mature");
-// } else {
-//     console.log("You are not Mature");
-// }
 
 // console.log("Statements Ladder");
 // age = 70;
