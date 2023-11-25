@@ -2,14 +2,7 @@
 
 
 
-// // JavaScript functions
-// console.log("JavaScript Functions: ");
-// function avg(a, b) {
-//     return (a + b) / 2;
-// }
-// c1 = avg(4, 6);
-// c2 = avg(20, 40);
-// console.log(c1, c2);
+// // JavaScript function
 
 // console.log("Statements");
 // var age = 30;
