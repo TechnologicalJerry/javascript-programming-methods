@@ -6,14 +6,6 @@
 
 
 
-// var x = 30;
-// var y = 40;
-// console.log(x < y);
-// console.log(x > y);
-// console.log(x == y);
-// console.log(x <= y);
-// console.log(x >= y);
-
 // console.log("Now Logical operstors:=");
 // console.log("Logical and operstors:=");
 // console.log(true && true);
