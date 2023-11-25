@@ -3,10 +3,6 @@
 
 
 
-// var a1 = true;
-// var b1 = false;
-// console.log(a1, b1);
-
 // var und = undefined;
 // console.log(und);
 
