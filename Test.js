@@ -2,11 +2,6 @@
 
 
 
-// console.log("Logical not operstors:=");
-// console.log(!true);
-// console.log(!false);
-
-
 // // JavaScript functions
 // console.log("JavaScript Functions: ");
 // function avg(a, b) {
