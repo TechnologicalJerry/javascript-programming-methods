@@ -5,5 +5,6 @@ let temp;
 temp = x;
 x = y;
 y = temp;
+
 console.log("After swapping:");
 console.log("x=", x, "y=", y);
