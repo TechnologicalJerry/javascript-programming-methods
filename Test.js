@@ -8,12 +8,7 @@
 
 
 
-// var a = 20;
-// var b = 10;
-// console.log("The Value-", a + b);
-// console.log("The Value-", a - b);
-// console.log("The Value-", a * b);
-// console.log("The Value-", a / b);
+
 
 // var c = b;
 // // c += 2;
