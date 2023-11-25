@@ -3,19 +3,6 @@
 
 
 
-
-
-
-
-// let theArray = [1, 2, 3, 4, 5, 6, 7];
-// for (var i = 0; i < theArray.length; i++) {
-//     if (i==2){
-//         // break;
-//         continue;
-//     }
-//     console.log(theArray[i]);
-// }
-
 let myArray = ["Fan","Plus",35, null, true, false];
 console.log(myArray.length);
 // myArray.pop();
