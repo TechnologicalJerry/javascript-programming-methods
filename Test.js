@@ -7,13 +7,6 @@
 
 
 
-// // Objects
-// var marks = {
-//     ravi: 34,
-//     shuba: 35,
-//     jerry: 55,
-// }
-// console.log(marks);
 
 // var a = 20;
 // var b = 10;
