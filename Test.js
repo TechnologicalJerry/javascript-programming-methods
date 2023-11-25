@@ -4,21 +4,7 @@
 
 
 
-// console.log("Statements Ladder");
-// age = 70;
-// if (age > 18) {
-//     console.log("You can Vote");
-// } else if (age > 21) {
-//     console.log("You can vote and get married");
-// } else if (age > 30) {
-//     console.log("You can vote and can get marride also can have kids");
-// } else if (age > 35) {
-//     console.log("You can vote and can get marride also can have multipal kids");
-// } else if (age > 60) {
-//     console.log("You can vote and can get marride also can have multipal kids also you have to retire from your job");
-// } else {
-//     console.log("GO Die")
-// }
+
 
 // console.log("Loops");
 // let theArray = [1, 2, 3, 4, 5, 6, 7];
