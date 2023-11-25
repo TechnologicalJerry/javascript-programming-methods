@@ -3,16 +3,6 @@
 
 
 
-
-
-
-// console.log("Now Logical operstors:=");
-// console.log("Logical and operstors:=");
-// console.log(true && true);
-// console.log(true && false);
-// console.log(false && true);
-// console.log(false && false);
-
 // console.log("Logical or operstors:=");
 // console.log(true || true);
 // console.log(true || false);
