@@ -3,9 +3,6 @@
 
 
 
-// var und = undefined;
-// console.log(und);
-
 
 // var n = null;
 // console.log(n);
