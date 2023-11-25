@@ -4,8 +4,6 @@
 
 
 
-// var n = null;
-// console.log(n);
 
 // // Arrays
 // var arr = [1, 2, "JERRY", 3, 4, 5];
