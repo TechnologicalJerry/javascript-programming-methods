@@ -7,4 +7,5 @@ x = y;
 y = temp;
 
 console.log("After swapping:");
+
 console.log("x=", x, "y=", y);
