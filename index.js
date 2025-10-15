@@ -16,17 +16,34 @@ const methodCategories = {
     "Array Methods": {
         path: "./array-methods/",
         description: "Methods for manipulating and working with arrays",
+        files: [
+            "filter.js - Filter elements by condition (374 lines)",
+            "map.js - Transform array elements (255 lines)",
+            "reduce.js - Reduce to single value (425 lines)",
+            "forEach.js - Iterate over elements (330+ lines)",
+            "find.js - Find elements (find, findIndex, findLast) (380+ lines)",
+            "some-every.js - Test conditions (some, every) (400+ lines)",
+            "sort.js - Sort array elements (450+ lines)",
+            "includes-indexOf.js - Search methods (430+ lines)",
+            "flat-flatMap.js - Flatten nested arrays (380+ lines)",
+            "slice-splice.js - Extract and modify arrays (450+ lines)"
+        ],
         methods: [
             "map() - Transform array elements",
             "filter() - Filter array elements based on condition",
             "reduce() - Reduce array to single value",
             "forEach() - Iterate over array elements",
-            "find() - Find first matching element",
+            "find() / findIndex() - Find first matching element",
+            "findLast() / findLastIndex() - Find last matching (ES2023)",
             "some() - Test if any element passes condition",
             "every() - Test if all elements pass condition",
-            "sort() - Sort array elements",
-            "slice() - Extract portion of array",
-            "splice() - Add/remove elements from array"
+            "sort() - Sort array elements in place",
+            "slice() - Extract portion without mutation",
+            "splice() - Add/remove elements (mutates array)",
+            "includes() - Check if array contains value",
+            "indexOf() / lastIndexOf() - Find index of value",
+            "flat() - Flatten nested arrays (ES2019)",
+            "flatMap() - Map and flatten (ES2019)"
         ]
     },
     
