@@ -6,28 +6,31 @@ A comprehensive collection of JavaScript programming methods with detailed expla
 
 ```
 javascript-programming-methods/
-├── array-methods/
-│   ├── filter.js              - Filter array elements by condition
-│   ├── find.js                - Find elements (find, findIndex, findLast)
-│   ├── flat-flatMap.js        - Flatten nested arrays
-│   ├── forEach.js             - Iterate over array elements
-│   ├── includes-indexOf.js    - Search methods (includes, indexOf, lastIndexOf)
-│   ├── map.js                 - Transform array elements
-│   ├── reduce.js              - Reduce array to single value
-│   ├── slice-splice.js        - Extract and modify arrays
-│   ├── some-every.js          - Test array conditions
-│   └── sort.js                - Sort array elements
-├── string-methods/
-│   └── string-methods.js      - Comprehensive string operations
-├── object-methods/
-│   └── object-methods.js      - Object manipulation and utilities
-├── function-methods/
-│   └── function-methods.js    - Function utilities and patterns
-├── promise-methods/
-│   └── promise-methods.js     - Asynchronous programming
-├── utility-methods/
-│   └── utility-methods.js     - General utility functions
-└── index.js                   - Main entry point
+├── array-static-methods.js   - Static array methods (from, isArray, of, fromAsync)
+├── array-copy-methods.js     - Modern non-mutating copy methods (toSorted, toReversed, toSpliced, with, at)
+├── concat-join-reverse.js    - Array concatenation and reversal
+├── filter.js                 - Filter array elements by condition
+├── find.js                   - Search methods (find, findIndex, findLast, findLastIndex)
+├── flat-flatMap.js           - Flatten nested arrays
+├── forEach.js                - Iterate over array elements
+├── includes-indexOf.js       - Array search methods
+├── map.js                    - Transform array elements
+├── push-pop-shift-unshift.js - Stack & Queue array operations
+├── reduce.js                 - Reduce array to single value
+├── slice-splice.js           - Extract and modify arrays
+├── some-every.js             - Test array conditions
+├── sort.js                   - Sort array elements
+├── string-methods.js         - Comprehensive string operations
+├── object-methods.js         - Object manipulation and utilities
+├── map-set-methods.js        - Map, Set, WeakMap, WeakSet & ES2024 Set logical operations
+├── function-methods.js       - Function utilities, context binding, and patterns
+├── promise-methods.js        - Asynchronous programming with Promises
+├── reflect-proxy-methods.js  - Reflection and Proxy traps for metaprogramming
+├── math-methods.js           - Math built-in static methods
+├── date-methods.js           - Date object operations, formatting, and arithmetic
+├── number-bigint-methods.js  - Number static/instance methods & BigInt arithmetic
+├── utility-methods.js        - General helper functions
+└── index.js                  - Main entry point summary
 ```
 
 ## 🚀 Features
