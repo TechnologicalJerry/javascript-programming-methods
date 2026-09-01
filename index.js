@@ -116,7 +116,7 @@ const methodCategories = {
     },
     
     "Utility Methods": {
-        path: "./utility-methods/",
+        path: "./utility-methods.js",
         description: "General utility functions and helpers",
         methods: [
             "Type checking - Robust type validation",
@@ -129,6 +129,87 @@ const methodCategories = {
             "Performance utilities - Benchmarking and optimization",
             "Deep comparison - Compare complex objects",
             "Data transformation - Convert between formats"
+        ]
+    },
+    
+    "Non-Mutating Array Copy Methods": {
+        path: "./array-copy-methods.js",
+        description: "ES2023 Non-mutating array operations and relative indexing",
+        methods: [
+            "toSorted() - Non-mutating array sort (ES2023)",
+            "toReversed() - Non-mutating array reverse (ES2023)",
+            "toSpliced() - Non-mutating array splice (ES2023)",
+            "with() - Non-mutating element replacement (ES2023)",
+            "at() - Relative indexing supporting negative numbers (ES2022)",
+            "fill() - Fill array elements with static value",
+            "copyWithin() - Copy array elements within the array",
+            "keys() / values() / entries() - Array iterators"
+        ]
+    },
+    
+    "Map & Set Collections": {
+        path: "./map-set-methods.js",
+        description: "Keyed collections and ES2024 Set logical operations",
+        methods: [
+            "Map - set(), get(), has(), delete(), clear(), size, keys(), values(), entries()",
+            "Set - add(), has(), delete(), clear(), size, values(), entries()",
+            "Set.union() - Set union (ES2024)",
+            "Set.intersection() - Set intersection (ES2024)",
+            "Set.difference() - Set difference (ES2024)",
+            "Set.symmetricDifference() - Set symmetric difference (ES2024)",
+            "Set.isSubsetOf() / isSupersetOf() / isDisjointFrom() - Set predicate tests (ES2024)",
+            "WeakMap & WeakSet - Weak reference collections for memory safety"
+        ]
+    },
+    
+    "Reflect & Proxy Metaprogramming": {
+        path: "./reflect-proxy-methods.js",
+        description: "Metaprogramming, reflection, and property interception traps",
+        methods: [
+            "Reflect.get() / Reflect.set() / Reflect.has() / Reflect.deleteProperty()",
+            "Reflect.apply() / Reflect.construct() / Reflect.ownKeys()",
+            "Proxy traps - get, set, has, deleteProperty, apply, construct",
+            "Validation & Schema enforcement patterns",
+            "Reactive state management patterns (Vue 3 / MobX style)",
+            "Readonly / Immutable object wrappers"
+        ]
+    },
+    
+    "Math Built-in Methods": {
+        path: "./math-methods.js",
+        description: "Static mathematical calculations, powers, roots, and rounding",
+        methods: [
+            "Math.floor() / Math.ceil() / Math.round() / Math.trunc() - Rounding",
+            "Math.min() / Math.max() / clamp() - Boundary calculations",
+            "Math.pow() / Math.sqrt() / Math.cbrt() / Math.hypot() - Powers & Roots",
+            "Math.abs() / Math.sign() / Math.random() - Sign & Randomness",
+            "Math.imul() / Math.clz32() - Fast 32-bit integer math",
+            "Math.log() / Math.log10() / Math.log2() / Math.exp() - Logarithms"
+        ]
+    },
+    
+    "Date Built-in Methods": {
+        path: "./date-methods.js",
+        description: "Date object constructors, getters, setters, formatting, and arithmetic",
+        methods: [
+            "Date.now() / Date.parse() / Date.UTC() - Static timestamp creators",
+            "getFullYear() / getMonth() / getDate() / getDay() / getTime() - Date Getters",
+            "setFullYear() / setMonth() / setDate() - Date Setters",
+            "toISOString() / toUTCString() / toLocaleDateString() - Formatting",
+            "Date arithmetic - Adding days, calculating difference in days",
+            "Relative time formatting - 'x hours ago' generator"
+        ]
+    },
+    
+    "Number & BigInt Methods": {
+        path: "./number-bigint-methods.js",
+        description: "Number static/instance methods and arbitrary-precision BigInt arithmetic",
+        methods: [
+            "Number.isInteger() / Number.isFinite() / Number.isNaN() / Number.isSafeInteger()",
+            "Number.parseInt() / Number.parseFloat() - Strict parsing",
+            "toFixed() / toPrecision() / toExponential() / toString(radix)",
+            "BigInt() - Arbitrary precision integer arithmetic",
+            "BigInt.asIntN() / BigInt.asUintN() - 64-bit integer wrapping"
         ]
     }
 };
