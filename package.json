@@ -1,0 +1,8 @@
+{
+  "name": "javascript-methods-reference",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node index.js", "check": "node --check index.js" },
+  "engines": { "node": ">=24" }
+}
